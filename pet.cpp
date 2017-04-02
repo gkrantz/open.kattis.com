@@ -3,8 +3,7 @@
 
 int main()
 {
-    using namespace std;
-    std::string::size_type sz;
+	using namespace std;
 	string in;
 	int current = 0, max = 0, maxindex = 0;
 	for (int i = 0; i < 5; i++)
