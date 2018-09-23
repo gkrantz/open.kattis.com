@@ -13,4 +13,4 @@ for i in xrange(0, C):
     for j in xrange(1, student_count+1):
         if (int(args[j]) > avg):
             above_avg_student_count += 1
-    print "{0:.3f}%".format(100*float(above_avg_student_count)/float(student_count))
+    print "{:.3%}".format(above_avg_student_count/float(student_count))
