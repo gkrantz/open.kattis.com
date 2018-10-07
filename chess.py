@@ -2,15 +2,6 @@ import sys
 
 T = int(sys.stdin.readline());
 
-def compare(target, ipt):
-    res = 0;
-    for i in xrange(0, min(len(target),len(ipt))):
-        if target[i] == ipt[i]:
-            res = res + 1;
-        else:
-            break;
-    return len(ipt) + len(target) - 2 * res;
-
 for n in xrange(0, T):
     testcase = sys.stdin.readline();
     X1 = ord(testcase[0])-ord('A');
